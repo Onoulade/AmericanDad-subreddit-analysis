@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A funny, detailed look at the American Dad! quotes, episodes, and posting habits that dominate r/AmericanDad.">
+  <meta name="theme-color" content="#141c2c">
+  <title>American Dad! on Reddit: The Quote Recap</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Special+Elite&display=swap">
+  <link rel="stylesheet" href="./site.css">
+  <script defer src="./data.js"></script>
+  <script defer src="./charts.js"></script>
+  <script defer src="./site.js"></script>
+</head>
+<body>
+  <a class="skip" href="#charts">Skip to the charts</a>
+  <div class="flag-stripe" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="shell nav" aria-label="Main navigation">
+      <a class="brand" href="#top"><span class="brand-badge" aria-hidden="true">AD</span><span>American Dad! <b>Reddit recap</b></span></a>
+      <div class="nav-links">
+        <a href="#top-lines">Top 20</a>
+        <a href="#charts">Charts</a>
+        <a href="#explore">Explore</a>
+        <a href="#timeline">Over time</a>
+      </div>
+      <a class="nav-download" href="#data">Get the data <span aria-hidden="true">↓</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow typewriter" id="subreddit">r/AmericanDad · Episode Quote posts</p>
+        <h1 id="page-title">The lines <em>r/AmericanDad</em> can’t stop quoting.</h1>
+        <p class="hero-description">We matched Reddit posts to lines from the show to see which bits keep coming back. Charts included. Nobody asked.</p>
+        <p class="hero-date typewriter" id="snapshot"></p>
+        <div class="hero-actions">
+          <a class="primary" href="#top-lines">See the top 20 <span aria-hidden="true">↓</span></a>
+          <a class="hero-rankings" href="#explore">Find a quote or episode <span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+      <figure class="hero-figure">
+        <img src="./images/hero.webp" alt="American Dad! cast with Roger in a blonde wig beside the show logo" width="1200" height="674" fetchpriority="high">
+      </figure>
+    </section>
+
+    <section class="overview" aria-labelledby="overview-title">
+      <div class="shell">
+        <h2 id="overview-title" class="sr-only">Dataset at a glance</h2>
+        <dl class="kpis" id="kpis"></dl>
+        <p class="overview-note typewriter" id="overview-note"></p>
+      </div>
+    </section>
+
+    <section class="shell highlights section-space" aria-labelledby="highlights-title">
+      <h2 id="highlights-title">Three ways to win.</h2>
+      <div class="feature-grid" id="features"></div>
+    </section>
+
+    <section class="shell section-space" id="top-lines" aria-labelledby="top-lines-title">
+      <h2 id="top-lines-title">The subreddit’s top 20.</h2>
+      <p class="section-description" id="top-lines-summary"></p>
+      <nav class="quote-jumps" aria-label="Jump through the quote rankings">
+        <a href="#quote-gallery">#1</a><a href="#quote-position-2">2–7</a><a href="#quote-position-8">8–13</a><a href="#quote-position-14">14–20</a><a href="#charts">Charts ↓</a>
+      </nav>
+      <ol class="quote-gallery" id="quote-gallery"></ol>
+    </section>
+
+    <div id="charts">
+      <section class="shell section-space exhibit" aria-labelledby="tail-title">
+        <p class="eyebrow">Quote frequency</p>
+        <h2 id="tail-title">Most lines get posted once. A few get posted forever.</h2>
+        <p class="section-description" id="tail-summary"></p>
+        <div class="chart-grid">
+          <article class="panel chart-panel" id="chart-repeats">
+            <h3>How many times each line was posted</h3>
+            <p class="chart-note">Distinct lines, grouped by their number of posts.</p>
+            <div class="chart-figure"></div>
+          </article>
+          <article class="panel chart-panel" id="chart-pareto">
+            <h3>Share of all quote posts covered by the top N lines</h3>
+            <p class="chart-note">Lines ranked by posts, log scale. The curve tells you how concentrated the subreddit’s taste is.</p>
+            <div class="chart-figure"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="shell section-space exhibit" aria-labelledby="seasons-title">
+        <p class="eyebrow">Season by season</p>
+        <h2 id="seasons-title">Which era does the subreddit quote?</h2>
+        <p class="section-description" id="seasons-summary"></p>
+        <div class="chart-grid">
+          <article class="panel chart-panel" id="chart-seasons">
+            <h3>Quote posts per season</h3>
+            <p class="chart-note">Season numbering follows the Wikipedia catalogue. Select a bar to filter the rankings.</p>
+            <div class="chart-figure"></div>
+          </article>
+          <article class="panel chart-panel" id="chart-season-rate">
+            <h3>Quote posts per episode, by season</h3>
+            <p class="chart-note">The same counts divided by the number of episodes in each season, so long seasons don’t win by volume.</p>
+            <div class="chart-figure"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="shell section-space" id="heatmap" aria-labelledby="heatmap-title">
+        <div class="section-top">
+          <div>
+            <p class="eyebrow">Every episode</p>
+            <h2 id="heatmap-title">Every season at a glance.</h2>
+            <p class="section-description">Each tile is an episode. Select one to see its posting history. Darker means more.</p>
+          </div>
+          <label class="section-select">Color by
+            <select id="heat-metric">
+              <option value="posts">Quote posts</option>
+              <option value="distinct">Distinct lines</option>
+              <option value="coverage">Dialogue coverage</option>
+            </select>
+          </label>
+        </div>
+        <div class="panel map-panel">
+          <div class="map-scroll" tabindex="0" role="region" aria-label="Season heatmap, scroll for more episodes">
+            <div id="heat-grid" class="heat-grid"></div>
+          </div>
+          <div class="legend" id="heat-legend"></div>
+          <p class="heat-detail" id="heat-detail" aria-live="polite">Focus or hover on an episode to see its title and counts.</p>
+        </div>
+      </section>
+
+
+      <section class="shell section-space exhibit" aria-labelledby="nostalgia-title">
+        <p class="eyebrow">Nostalgia lag</p>
+        <h2 id="nostalgia-title">How old is an episode when it gets quoted?</h2>
+        <p class="section-description" id="nostalgia-summary"></p>
+        <div class="chart-grid">
+          <article class="panel chart-panel" id="chart-age">
+            <h3>Episode age at posting time</h3>
+            <p class="chart-note">Years between the episode’s original air date and the Reddit post.</p>
+            <div class="chart-figure"></div>
+          </article>
+          <article class="panel chart-panel" id="chart-era">
+            <h3>Posting year × season quoted</h3>
+            <p class="chart-note">Each row is a year of Reddit posts, each column a season. Darker means more posts.</p>
+            <div class="chart-figure"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="shell section-space exhibit" aria-labelledby="scores-title">
+        <p class="eyebrow">Reddit scores</p>
+        <h2 id="scores-title">Do the regulars score higher?</h2>
+        <p class="section-description" id="scores-summary"></p>
+        <div class="chart-grid">
+          <article class="panel chart-panel" id="chart-scores">
+            <h3>Reddit score of each quote post</h3>
+            <p class="chart-note">Net score recorded in the dump, grouped in bands.</p>
+            <div class="chart-figure"></div>
+          </article>
+          <article class="panel chart-panel" id="chart-repeat-score">
+            <h3>Median score by how often the line was posted</h3>
+            <p class="chart-note">Posts grouped by the total number of posts their line received.</p>
+            <div class="chart-figure"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="shell section-space exhibit" id="post-formats" aria-labelledby="formats-title">
+        <h2 id="formats-title">How the quotes get posted.</h2>
+        <p class="section-description" id="formats-summary"></p>
+        <article class="panel chart-panel" id="chart-formats">
+          <h3>Quote posts by Reddit format</h3>
+          <div class="chart-figure"></div>
+        </article>
+      </section>
+
+    </div>
+
+    <section class="shell section-space" id="explore" aria-labelledby="explore-title">
+      <div class="section-top">
+        <div>
+          <p class="eyebrow">Search and compare</p>
+          <h2 id="explore-title">Explore the rankings.</h2>
+          <p class="section-description">Filter by posting date or season. Compare how often the subreddit quotes a line and how many different lines it quotes from an episode.</p>
+        </div>
+      </div>
+      <form class="filters" id="filters">
+        <label>Season <select id="season"><option value="">All seasons</option></select></label>
+        <label>From <select id="date-from"></select></label>
+        <label>Through <select id="date-through"></select></label>
+        <button class="text-button" type="reset">Reset filters</button>
+        <p id="filter-summary" class="filter-summary" aria-live="polite"></p>
+      </form>
+      <div class="explore-search">
+        <form class="quick-search" id="quick-search" role="search" aria-label="Find a quote or episode">
+          <label class="sr-only" for="quick-query">Search quotes or episodes</label>
+          <input id="quick-query" type="search" placeholder="Search a quote, episode name, or code" autocomplete="off" aria-controls="quick-results">
+          <button class="primary" type="submit">Search</button>
+        </form>
+        <button type="button" class="hero-random" id="random-quote" aria-controls="quick-results">Roll a random quote <span aria-hidden="true">⤨</span></button>
+      </div>
+      <section class="quick-results" id="quick-results" aria-labelledby="quick-title" hidden>
+        <h3 id="quick-title">Search results</h3>
+        <p id="quick-status" role="status"></p>
+        <div class="quick-columns" id="quick-columns"></div>
+        <button type="button" class="hero-random quick-reroll" id="quick-reroll" hidden>Roll again <span aria-hidden="true">⤨</span></button>
+      </section>
+      <div class="panel ranking-panel">
+        <div class="panel-controls">
+          <div class="segmented" id="ranking-tabs" role="group" aria-label="Ranking type">
+            <button type="button" data-mode="quotes" aria-pressed="true">Quotes</button>
+            <button type="button" data-mode="episodes" aria-pressed="false">Episodes</button>
+            <button type="button" data-mode="coverage" aria-pressed="false">Dialogue coverage</button>
+          </div>
+          <div class="search-controls">
+            <label class="sr-only" for="search">Search rankings</label>
+            <input id="search" type="search" placeholder="Search lines or episodes">
+            <label class="sr-only" for="sort">Sort rankings</label>
+            <select id="sort"></select>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table aria-label="Quote index rankings">
+            <thead id="ranking-head"></thead>
+            <tbody id="ranking-body"></tbody>
+          </table>
+        </div>
+        <p class="empty" id="search-empty" hidden></p>
+        <div class="pagination">
+          <span id="page-label" aria-live="polite"></span>
+          <div>
+            <button type="button" id="prev" aria-label="Previous results">←</button>
+            <button type="button" id="next" aria-label="Next results">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell section-space" id="timeline" aria-labelledby="timeline-title">
+      <div class="section-top">
+        <div>
+          <p class="eyebrow">Daily and weekly patterns</p>
+          <h2 id="timeline-title">How the quotes age.</h2>
+          <p class="section-description">See when r/AmericanDad posted each line. Pick a quote or episode to find its busiest period.</p>
+        </div>
+      </div>
+      <div class="panel timeline-panel">
+        <div class="timeline-controls">
+          <label>Show <select id="trend-focus"></select></label>
+          <label>Group by <select id="trend-period"><option value="year">Year</option><option value="month">Month</option><option value="week">Week</option></select></label>
+          <label>Measure <select id="trend-measure"><option value="count">Quote posts</option><option value="share">Share of quote posts</option></select></label>
+        </div>
+        <div class="trend-stats" id="trend-stats" hidden>
+          <div class="detail-heading">
+            <div>
+              <h3 id="trend-item"></h3>
+              <p id="trend-context"></p>
+              <div class="detail-links">
+                <button type="button" class="text-button" id="episode-detail-link" hidden>View episode stats</button>
+                <a href="#episode-quotes" id="episode-quotes-link">Browse episode quotes ↓</a>
+              </div>
+            </div>
+            <img id="trend-image" alt="" decoding="async" hidden>
+          </div>
+          <dl class="detail-stats" id="trend-metrics"></dl>
+        </div>
+        <p class="trend-insight" id="trend-insight" aria-live="polite"></p>
+        <div class="chart-box"><canvas id="trend-chart" role="img" aria-label="Posting frequency over time"></canvas></div>
+        <div class="trend-footer">
+          <label>Inspect a period <select id="trend-point"></select></label>
+          <p id="trend-readout" aria-live="polite"></p>
+        </div>
+      </div>
+      <section class="episode-quotes" id="episode-quotes" aria-labelledby="episode-quotes-title" hidden>
+        <h3 id="episode-quotes-title"></h3>
+        <p id="episode-quotes-summary" class="section-description"></p>
+        <div class="panel">
+          <div class="panel-controls episode-quote-controls">
+            <label class="sr-only" for="episode-quotes-search">Search this episode’s quotes</label>
+            <input type="search" id="episode-quotes-search" placeholder="Search this episode’s quotes" autocomplete="off">
+            <label>Sort by <select id="episode-quotes-sort">
+              <option value="posts">Most posts</option>
+              <option value="average">Highest average score</option>
+              <option value="peak">Highest peak score</option>
+              <option value="comments">Most comments</option>
+              <option value="recent">Last posted</option>
+              <option value="first">First posted</option>
+              <option value="name">Quote A–Z</option>
+            </select></label>
+          </div>
+          <div class="table-wrap" tabindex="0" role="region" aria-labelledby="episode-quotes-title">
+            <table class="episode-quote-table" aria-labelledby="episode-quotes-title">
+              <thead><tr>
+                <th scope="col" class="num">Rank</th>
+                <th scope="col">Quote</th>
+                <th scope="col" class="num">Posts</th>
+                <th scope="col" class="num">Episode share</th>
+                <th scope="col" class="num">Avg. score</th>
+                <th scope="col" class="num">Peak score</th>
+                <th scope="col" class="num">Comments</th>
+                <th scope="col">First posted</th>
+                <th scope="col">Last posted</th>
+              </tr></thead>
+              <tbody id="episode-quotes-body"></tbody>
+            </table>
+          </div>
+          <p class="empty" id="episode-quotes-empty" hidden></p>
+          <div class="pagination">
+            <span id="episode-quotes-range" aria-live="polite"></span>
+            <div class="episode-pager">
+              <label>Rows <select id="episode-quotes-size">
+                <option value="10">10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+              </select></label>
+              <button type="button" id="episode-quotes-prev" aria-label="Previous episode quotes page">←</button>
+              <label class="sr-only" for="episode-quotes-page">Episode quotes page</label>
+              <select id="episode-quotes-page"></select>
+              <button type="button" id="episode-quotes-next" aria-label="Next episode quotes page">→</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="data-section section-space" id="data" aria-labelledby="data-title">
+      <div class="shell data-layout">
+        <div>
+          <p class="eyebrow">Downloads and methods</p>
+          <h2 id="data-title">Take the data with you.</h2>
+          <p class="section-description">Explore the same snapshot in a spreadsheet, or use it to make your own charts.</p>
+          <div class="downloads">
+            <a class="primary" href="./posts.csv" download>Posts CSV <span aria-hidden="true">↓</span></a>
+            <a class="secondary" href="./episodes.csv" download>Episodes CSV <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <details class="methodology" open>
+          <summary>How we built the numbers</summary>
+          <ul>
+            <li><b>Start with quote posts.</b> We analyzed r/AmericanDad posts marked as episode quotes and matched each included post to a line and episode using its text, image text when available, and subtitle transcripts.</li>
+            <li><b>Count the posts.</b> Each Reddit post adds one to its quote. Reposts remain separate posts. Wording variants are grouped when they point to the same line in the same episode, so the ranking measures matched post count.</li>
+            <li><b>Keep the scope clear.</b> Posts without a confident line and episode match do not enter the quote ranking. Season and episode numbers follow the episode catalogue.</li>
+            <li><b>Dialogue coverage.</b> The percentage of subtitle cues touched by a matched quote in one mapped track per episode. A cue is one timed subtitle block. Adjacent cues can count separately and repeat posts count the cue once. Episodes without a mapped track are omitted from the denominator. Date filters change which posts count toward coverage. This is an estimate of dialogue coverage.</li>
+            <li><b>Episode age.</b> Compares the catalogue air date with the post date.</li>
+            <li><b>Time and scores.</b> Dates are UTC and weeks start Monday. Partial periods and missing records can affect comparisons. Average Reddit score uses the recorded net scores available for the posts in view.</li>
+            <li><b>CSV.</b> Join the files on <code>episode_id</code> and group posts by <code>quote_id</code> to count repeats of a line. <code>quote_start_seconds</code> is the subtitle position inside the episode and <code>post_format</code> comes from Reddit’s post metadata. The page calculates dialogue coverage separately. An apostrophe protects spreadsheet cells that begin with formula characters.</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+    <noscript><p class="shell empty">Enable JavaScript to explore the rankings, or download the CSV files above.</p></noscript>
+  </main>
+
+  <footer class="site-footer shell typewriter">
+    <span>Independent fan analysis of r/AmericanDad</span>
+    <span>Stills from <i>American Dad!</i></span>
+  </footer>
+</body>
+</html>

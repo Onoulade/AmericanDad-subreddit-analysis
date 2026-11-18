@@ -1,0 +1,402 @@
+episode_id,season,episode,title,air_date,aired
+S01E01,1,1,Pilot,"February 6, 2005",2005-02-06
+S01E02,1,2,Threat Levels,"May 1, 2005",2005-05-01
+S01E03,1,3,Stan Knows Best,"May 8, 2005",2005-05-08
+S01E04,1,4,Francine's Flashback,"May 15, 2005",2005-05-15
+S01E05,1,5,Roger Codger,"June 5, 2005",2005-06-05
+S01E06,1,6,Homeland Insecurity,"June 12, 2005",2005-06-12
+S01E07,1,7,"Deacon Stan, Jesus Man","June 19, 2005",2005-06-19
+S02E01,2,1,Bullocks to Stan,"September 11, 2005",2005-09-11
+S02E02,2,2,A Smith in the Hand,"September 18, 2005",2005-09-18
+S02E03,2,3,All About Steve,"September 25, 2005",2005-09-25
+S02E04,2,4,Con Heir,"October 2, 2005",2005-10-02
+S02E05,2,5,Stan of Arabia: Part 1,"November 6, 2005",2005-11-06
+S02E06,2,6,Stan of Arabia: Part 2,"November 13, 2005",2005-11-13
+S02E07,2,7,Stannie Get Your Gun,"November 20, 2005",2005-11-20
+S02E08,2,8,Star Trek,"November 27, 2005",2005-11-27
+S02E09,2,9,Not Particularly Desperate Housewives,"December 18, 2005",2005-12-18
+S02E10,2,10,Rough Trade,"January 8, 2006",2006-01-08
+S02E11,2,11,Finances with Wolves,"January 29, 2006",2006-01-29
+S02E12,2,12,It's Good to Be the Queen,"February 26, 2006",2006-02-26
+S02E13,2,13,Roger 'n' Me,"April 23, 2006",2006-04-23
+S02E14,2,14,Helping Handis,"April 30, 2006",2006-04-30
+S02E15,2,15,With Friends Like Steve's,"May 7, 2006",2006-05-07
+S02E16,2,16,Tears of a Clooney,"May 14, 2006",2006-05-14
+S03E01,3,1,Camp Refoogee,"September 10, 2006",2006-09-10
+S03E02,3,2,The American Dad After School Special,"September 17, 2006",2006-09-17
+S03E03,3,3,Failure Is Not a Factory-Installed Option,"September 24, 2006",2006-09-24
+S03E04,3,4,Lincoln Lover,"November 5, 2006",2006-11-05
+S03E05,3,5,Dungeons and Wagons,"November 12, 2006",2006-11-12
+S03E06,3,6,"Iced, Iced Babies","November 19, 2006",2006-11-19
+S03E07,3,7,Of Ice and Men,"November 26, 2006",2006-11-26
+S03E08,3,8,Irregarding Steve,"December 10, 2006",2006-12-10
+S03E09,3,9,The Best Christmas Story Never Told,"December 17, 2006",2006-12-17
+S03E10,3,10,Bush Comes to Dinner,"January 7, 2007",2007-01-07
+S03E11,3,11,American Dream Factory,"January 28, 2007",2007-01-28
+S03E12,3,12,A.T. The Abusive Terrestrial,"February 11, 2007",2007-02-11
+S03E13,3,13,Black Mystery Month,"February 18, 2007",2007-02-18
+S03E14,3,14,An Apocalypse to Remember,"March 25, 2007",2007-03-25
+S03E15,3,15,Four Little Words,"April 1, 2007",2007-04-01
+S03E16,3,16,When a Stan Loves a Woman,"April 29, 2007",2007-04-29
+S03E17,3,17,I Can't Stan You,"May 6, 2007",2007-05-06
+S03E18,3,18,The Magnificent Steven,"May 13, 2007",2007-05-13
+S03E19,3,19,Joint Custody,"May 20, 2007",2007-05-20
+S04E01,4,1,The Vacation Goo,"September 30, 2007",2007-09-30
+S04E02,4,2,Meter Made,"October 7, 2007",2007-10-07
+S04E03,4,3,Dope & Faith,"October 14, 2007",2007-10-14
+S04E04,4,4,Big Trouble in Little Langley,"November 4, 2007",2007-11-04
+S04E05,4,5,Haylias,"November 11, 2007",2007-11-11
+S04E06,4,6,The 42-Year-Old Virgin,"November 18, 2007",2007-11-18
+S04E07,4,7,Surro-Gate,"December 2, 2007",2007-12-02
+S04E08,4,8,The Most Adequate Christmas Ever,"December 16, 2007",2007-12-16
+S04E09,4,9,Frannie 911,"January 6, 2008",2008-01-06
+S04E10,4,10,Tearjerker,"January 13, 2008",2008-01-13
+S04E11,4,11,Oedipal Panties,"January 27, 2008",2008-01-27
+S04E12,4,12,Widowmaker,"February 17, 2008",2008-02-17
+S04E13,4,13,Red October Sky,"April 27, 2008",2008-04-27
+S04E14,4,14,Office Spaceman,"May 4, 2008",2008-05-04
+S04E15,4,15,Stanny Slickers II: The Legend of Ollie's Gold,"May 11, 2008",2008-05-11
+S04E16,4,16,Spring Breakup,"May 18, 2008",2008-05-18
+S05E01,5,1,1600 Candles,"September 28, 2008",2008-09-28
+S05E02,5,2,The One That Got Away,"October 5, 2008",2008-10-05
+S05E03,5,3,One Little Word,"October 19, 2008",2008-10-19
+S05E04,5,4,Choosy Wives Choose Smith,"November 2, 2008",2008-11-02
+S05E05,5,5,Escape from Pearl Bailey,"November 9, 2008",2008-11-09
+S05E06,5,6,Pulling Double Booty,"November 16, 2008",2008-11-16
+S05E07,5,7,Phantom of the Telethon,"November 30, 2008",2008-11-30
+S05E08,5,8,Chimdale,"January 25, 2009",2009-01-25
+S05E09,5,9,Stan Time,"February 8, 2009",2009-02-08
+S05E10,5,10,Family Affair,"February 15, 2009",2009-02-15
+S05E11,5,11,Live and Let Fry,"March 1, 2009",2009-03-01
+S05E12,5,12,Roy Rogers McFreely,"March 8, 2009",2009-03-08
+S05E13,5,13,Jack's Back,"March 15, 2009",2009-03-15
+S05E14,5,14,Bar Mitzvah Hustle,"March 22, 2009",2009-03-22
+S05E15,5,15,Wife Insurance,"March 29, 2009",2009-03-29
+S05E16,5,16,Delorean Story-an,"April 19, 2009",2009-04-19
+S05E17,5,17,Every Which Way But Lose,"April 26, 2009",2009-04-26
+S05E18,5,18,Weiner of Our Discontent,"May 3, 2009",2009-05-03
+S05E19,5,19,Daddy Queerest,"May 10, 2009",2009-05-10
+S05E20,5,20,Stan's Night Out,"May 17, 2009",2009-05-17
+S06E01,6,1,In Country...Club,"September 27, 2009",2009-09-27
+S06E02,6,2,Moon Over Isla Island,"October 4, 2009",2009-10-04
+S06E03,6,3,Home Adrone,"October 11, 2009",2009-10-11
+S06E04,6,4,"Brains, Brains and Automobiles","October 18, 2009",2009-10-18
+S06E05,6,5,Man in the Moonbounce,"November 8, 2009",2009-11-08
+S06E06,6,6,Shallow Vows,"November 15, 2009",2009-11-15
+S06E07,6,7,My Morning Straitjacket,"November 22, 2009",2009-11-22
+S06E08,6,8,G-String Circus,"November 29, 2009",2009-11-29
+S06E09,6,9,Rapture's Delight,"December 13, 2009",2009-12-13
+S06E10,6,10,Don't Look a Smith Horse in the Mouth,"January 3, 2010",2010-01-03
+S06E11,6,11,A Jones for a Smith,"January 31, 2010",2010-01-31
+S06E12,6,12,May the Best Stan Win,"February 14, 2010",2010-02-14
+S06E13,6,13,The Return of the Bling,"February 21, 2010",2010-02-21
+S06E14,6,14,Cops and Roger,"April 11, 2010",2010-04-11
+S06E15,6,15,Merlot Down Dirty Shame,"April 18, 2010",2010-04-18
+S06E16,6,16,Bully for Steve,"April 25, 2010",2010-04-25
+S06E17,6,17,An Incident at Owl Creek,"May 9, 2010",2010-05-09
+S06E18,6,18,Great Space Roaster,"May 16, 2010",2010-05-16
+S07E01,7,1,100 A.D.,"October 3, 2010",2010-10-03
+S07E02,7,2,Son of Stan,"October 10, 2010",2010-10-10
+S07E03,7,3,Best Little Horror House in Langley Falls,"November 7, 2010",2010-11-07
+S07E04,7,4,Stan's Food Restaurant,"November 14, 2010",2010-11-14
+S07E05,7,5,White Rice,"November 21, 2010",2010-11-21
+S07E06,7,6,There Will Be Bad Blood,"November 28, 2010",2010-11-28
+S07E07,7,7,The People vs. Martin Sugar,"December 5, 2010",2010-12-05
+S07E08,7,8,For Whom the Sleigh Bell Tolls,"December 12, 2010",2010-12-12
+S07E09,7,9,Fart-Break Hotel,"January 16, 2011",2011-01-16
+S07E10,7,10,Stanny Boy and Frantastic,"January 23, 2011",2011-01-23
+S07E11,7,11,A Piñata Named Desire,"February 13, 2011",2011-02-13
+S07E12,7,12,You Debt Your Life,"February 20, 2011",2011-02-20
+S07E13,7,13,I Am the Walrus,"March 27, 2011",2011-03-27
+S07E14,7,14,School Lies,"April 3, 2011",2011-04-03
+S07E15,7,15,License to Till,"April 10, 2011",2011-04-10
+S07E16,7,16,Jenny Fromdabloc,"April 17, 2011",2011-04-17
+S07E17,7,17,Home Wrecker,"May 8, 2011",2011-05-08
+S07E18,7,18,Flirting with Disaster,"May 15, 2011",2011-05-15
+S07E19,7,19,Gorillas in the Mist,"May 22, 2011",2011-05-22
+S08E01,8,1,Hot Water,"September 25, 2011",2011-09-25
+S08E02,8,2,Hurricane!,"October 2, 2011",2011-10-02
+S08E03,8,3,A Ward Show,"November 6, 2011",2011-11-06
+S08E04,8,4,The Worst Stan,"November 13, 2011",2011-11-13
+S08E05,8,5,Virtual In-Stanity,"November 20, 2011",2011-11-20
+S08E06,8,6,The Scarlett Getter,"November 27, 2011",2011-11-27
+S08E07,8,7,Season's Beatings,"December 11, 2011",2011-12-11
+S08E08,8,8,The Unbrave One,"January 8, 2012",2012-01-08
+S08E09,8,9,Stanny Tendergrass,"January 29, 2012",2012-01-29
+S08E10,8,10,Wheels & the Legman and the Case of Grandpa's Key,"February 12, 2012",2012-02-12
+S08E11,8,11,Old Stan in the Mountain,"February 19, 2012",2012-02-19
+S08E12,8,12,The Wrestler,"March 4, 2012",2012-03-04
+S08E13,8,13,Dr. Klaustus,"March 11, 2012",2012-03-11
+S08E14,8,14,Stan's Best Friend,"March 18, 2012",2012-03-18
+S08E15,8,15,"Less Money, Mo' Problems","March 25, 2012",2012-03-25
+S08E16,8,16,The Kidney Stays in the Picture,"April 1, 2012",2012-04-01
+S08E17,8,17,Ricky Spanish,"May 6, 2012",2012-05-06
+S08E18,8,18,Toy Whorey,"May 13, 2012",2012-05-13
+S09E01,9,1,"Love, AD Style","September 30, 2012",2012-09-30
+S09E02,9,2,Killer Vacation,"October 7, 2012",2012-10-07
+S09E03,9,3,Can I Be Frank with You?,"November 4, 2012",2012-11-04
+S09E04,9,4,American Stepdad,"November 18, 2012",2012-11-18
+S09E05,9,5,Why Can't We Be Friends?,"December 2, 2012",2012-12-02
+S09E06,9,6,Adventures in Hayleysitting,"December 9, 2012",2012-12-09
+S09E07,9,7,National Treasure 4: Baby Franny: She's Doing Well: The Hole Story,"December 23, 2012",2012-12-23
+S09E08,9,8,Finger Lenting Good,"January 6, 2013",2013-01-06
+S09E09,9,9,The Adventures of Twill Ongenbone and His Boy Jabari,"January 13, 2013",2013-01-13
+S09E10,9,10,Blood Crieth Unto Heaven,"January 27, 2013",2013-01-27
+S09E11,9,11,Max Jets,"February 10, 2013",2013-02-10
+S09E12,9,12,"Naked to the Limit, One More Time","February 17, 2013",2013-02-17
+S09E13,9,13,For Black Eyes Only,"March 10, 2013",2013-03-10
+S09E14,9,14,Spelling Bee My Baby,"March 24, 2013",2013-03-24
+S09E15,9,15,The Missing Kink,"April 14, 2013",2013-04-14
+S09E16,9,16,The Boring Identity,"April 21, 2013",2013-04-21
+S09E17,9,17,The Full Cognitive Redaction of Avery Bullock by the Coward Stan Smith,"April 28, 2013",2013-04-28
+S09E18,9,18,Lost in Space,"May 5, 2013",2013-05-05
+S09E19,9,19,Da Flippity Flop,"May 12, 2013",2013-05-12
+S10E01,10,1,Steve & Snot's Test-Tubular Adventure,"September 29, 2013",2013-09-29
+S10E02,10,2,Poltergasm,"October 6, 2013",2013-10-06
+S10E03,10,3,"Buck, Wild","November 3, 2013",2013-11-03
+S10E04,10,4,Crotchwalkers,"November 10, 2013",2013-11-10
+S10E05,10,5,Kung Pao Turkey,"November 24, 2013",2013-11-24
+S10E06,10,6,Independent Movie,"December 1, 2013",2013-12-01
+S10E07,10,7,Faking Bad,"December 8, 2013",2013-12-08
+S10E08,10,8,Minstrel Krampus,"December 15, 2013",2013-12-15
+S10E09,10,9,Vision: Impossible,"January 5, 2014",2014-01-05
+S10E10,10,10,Familyland,"January 12, 2014",2014-01-12
+S10E11,10,11,Cock of the Sleepwalk,"January 26, 2014",2014-01-26
+S10E12,10,12,Introducing the Naughty Stewardesses,"March 16, 2014",2014-03-16
+S10E13,10,13,I Ain't No Holodeck Boy,"March 23, 2014",2014-03-23
+S10E14,10,14,Stan Goes on the Pill,"March 30, 2014",2014-03-30
+S10E15,10,15,"Honey, I'm Homeland","April 6, 2014",2014-04-06
+S10E16,10,16,She Swill Survive,"April 13, 2014",2014-04-13
+S10E17,10,17,Rubberneckers,"April 27, 2014",2014-04-27
+S10E18,10,18,Permanent Record Wrecker,"May 4, 2014",2014-05-04
+S10E19,10,19,News Glance with Genevieve Vavance,"May 11, 2014",2014-05-11
+S10E20,10,20,The Longest Distance Relationship,"May 18, 2014",2014-05-18
+S11E01,11,1,Roger Passes the Bar,"September 14, 2014",2014-09-14
+S11E02,11,2,A Boy Named Michael,"September 14, 2014",2014-09-14
+S11E03,11,3,"Blagsnarst, a Love Story","September 21, 2014",2014-09-21
+S12E01,12,1,Blonde Ambition,"October 20, 2014",2014-10-20
+S12E02,12,2,CIAPOW,"October 27, 2014",2014-10-27
+S12E03,12,3,Scents and Sensei-bility,"November 3, 2014",2014-11-03
+S12E04,12,4,Big Stan on Campus,"November 10, 2014",2014-11-10
+S12E05,12,5,Now and Gwen,"November 17, 2014",2014-11-17
+S12E06,12,6,Dreaming of a White Porsche Christmas,"December 1, 2014",2014-12-01
+S12E07,12,7,LGBSteve,"February 23, 2015",2015-02-23
+S12E08,12,8,Morning Mimosa,"March 2, 2015",2015-03-02
+S12E09,12,9,My Affair Lady,"March 9, 2015",2015-03-09
+S12E10,12,10,A Star Is Reborn,"March 16, 2015",2015-03-16
+S12E11,12,11,Manhattan Magical Murder Mystery Tour,"March 23, 2015",2015-03-23
+S12E12,12,12,The Shrink,"March 30, 2015",2015-03-30
+S12E13,12,13,"Holy Shit, Jeff's Back!","May 18, 2015",2015-05-18
+S12E14,12,14,American Fung,"May 25, 2015",2015-05-25
+S12E15,12,15,Seizures Suit Stanny,"June 1, 2015",2015-06-01
+S13E01,13,1,Roots,"January 25, 2016",2016-01-25
+S13E02,13,2,The Life Aquatic with Steve Smith,"February 1, 2016",2016-02-01
+S13E03,13,3,"Hayley Smith, Seal Team Six","February 8, 2016",2016-02-08
+S13E04,13,4,N.S.A. (No Snoops Allowed),"February 15, 2016",2016-02-15
+S13E05,13,5,Stan Smith as Keanu Reeves as Stanny Utah in Point Breakers,"February 22, 2016",2016-02-22
+S13E06,13,6,Kiss Kiss Cam Cam,"February 29, 2016",2016-02-29
+S13E07,13,7,The Devil Wears a Lapel Pin,"March 7, 2016",2016-03-07
+S13E08,13,8,Stan-Dan Deliver,"March 14, 2016",2016-03-14
+S13E09,13,9,Anchorfran,"March 21, 2016",2016-03-21
+S13E10,13,10,The Two Hundred,"March 28, 2016",2016-03-28
+S13E11,13,11,The Unincludeds,"April 11, 2016",2016-04-11
+S13E12,13,12,The Dentist's Wife,"April 18, 2016",2016-04-18
+S13E13,13,13,Widow's Pique,"April 25, 2016",2016-04-25
+S13E14,13,14,The Nova Centauris-burgh Board of Tourism Presents: American Dad,"May 2, 2016",2016-05-02
+S13E15,13,15,Daesong Heavy Industries,"May 9, 2016",2016-05-09
+S13E16,13,16,Daesong Heavy Industries II: Return to Innocence,"May 16, 2016",2016-05-16
+S13E17,13,17,Criss-Cross Applesauce: The Ballad of Billy Jesusworth,"May 23, 2016",2016-05-23
+S13E18,13,18,Mine Struggle,"May 30, 2016",2016-05-30
+S13E19,13,19,Garfield and Friends,"June 6, 2016",2016-06-06
+S13E20,13,20,Gift Me Liberty,"June 13, 2016",2016-06-13
+S13E21,13,21,Next of Pin,"June 20, 2016",2016-06-20
+S13E22,13,22,Standard Deviation,"June 27, 2016",2016-06-27
+S14E01,14,1,Father's Daze,"November 7, 2016",2016-11-07
+S14E02,14,2,Fight and Flight,"November 14, 2016",2016-11-14
+S14E03,14,3,The Enlightenment of Ragi-Baba,"November 21, 2016",2016-11-21
+S14E04,14,4,Portrait of Francine's Genitals,"November 28, 2016",2016-11-28
+S14E05,14,5,Bahama Mama,"December 5, 2016",2016-12-05
+S14E06,14,6,Roger's Baby,"December 12, 2016",2016-12-12
+S14E07,14,7,"Ninety North, Zero West","December 19, 2016",2016-12-19
+S14E08,14,8,Whole Slotta Love,"April 10, 2017",2017-04-10
+S14E09,14,9,The Witches of Langley,"April 17, 2017",2017-04-17
+S14E10,14,10,A Nice Night for a Drive,"April 24, 2017",2017-04-24
+S14E11,14,11,Casino Normale,"May 1, 2017",2017-05-01
+S14E12,14,12,Bazooka Steve,"May 29, 2017",2017-05-29
+S14E13,14,13,Camp Campawanda,"June 5, 2017",2017-06-05
+S14E14,14,14,Julia Rogerts,"June 12, 2017",2017-06-12
+S14E15,14,15,The Life and Times of Stan Smith,"July 24, 2017",2017-07-24
+S14E16,14,16,The Bitchin' Race,"July 31, 2017",2017-07-31
+S14E17,14,17,Family Plan,"August 7, 2017",2017-08-07
+S14E18,14,18,The Long Bomb,"August 14, 2017",2017-08-14
+S14E19,14,19,Kloger,"August 21, 2017",2017-08-21
+S14E20,14,20,Garbage Stan,"August 28, 2017",2017-08-28
+S14E21,14,21,The Talented Mr. Dingleberry,"September 4, 2017",2017-09-04
+S14E22,14,22,West to Mexico,"September 11, 2017",2017-09-11
+S15E01,15,1,"Santa, Schmanta","December 25, 2017",2017-12-25
+S15E02,15,2,Paranoid Frandroid,"February 12, 2018",2018-02-12
+S15E03,15,3,The Census of the Lambs,"February 19, 2018",2018-02-19
+S15E04,15,4,Shell Game,"February 26, 2018",2018-02-26
+S15E05,15,5,The Mural of the Story,"March 5, 2018",2018-03-05
+S15E06,15,6,(You Gotta) Strike for Your Right,"March 12, 2018",2018-03-12
+S15E07,15,7,Klaustastrophe.tv,"March 19, 2018",2018-03-19
+S15E08,15,8,Death by Dinner Party,"March 26, 2018",2018-03-26
+S15E09,15,9,The Never-Ending Stories,"April 9, 2018",2018-04-09
+S15E10,15,10,Railroaded,"April 16, 2018",2018-04-16
+S15E11,15,11,My Purity Ball and Chain,"April 23, 2018",2018-04-23
+S15E12,15,12,OreTron Trail,"April 30, 2018",2018-04-30
+S15E13,15,13,Mean Francine,"May 7, 2018",2018-05-07
+S15E14,15,14,One-Woman Swole,"February 11, 2019",2019-02-11
+S15E15,15,15,Flavortown,"February 18, 2019",2019-02-18
+S15E16,15,16,Persona Assistant,"February 25, 2019",2019-02-25
+S15E17,15,17,The Legend of Old Ulysses,"March 4, 2019",2019-03-04
+S15E18,15,18,Twinanigans,"March 11, 2019",2019-03-11
+S15E19,15,19,Top of the Steve,"March 18, 2019",2019-03-18
+S15E20,15,20,Funnyish Games,"March 25, 2019",2019-03-25
+S15E21,15,21,Fleabiscuit,"April 1, 2019",2019-04-01
+S15E22,15,22,The Future Is Borax,"April 8, 2019",2019-04-08
+S16E01,16,1,Fantasy Baseball,"April 15, 2019",2019-04-15
+S16E02,16,2,I Am the Jeans: The Gina Lavetti Story,"April 22, 2019",2019-04-22
+S16E03,16,3,Stan & Francine & Connie & Ted,"April 29, 2019",2019-04-29
+S16E04,16,4,Rabbit Ears,"May 6, 2019",2019-05-06
+S16E05,16,5,Jeff and the Dank Ass Weed Factory,"May 13, 2019",2019-05-13
+S16E06,16,6,Lost Boys,"May 20, 2019",2019-05-20
+S16E07,16,7,Shark?!,"May 27, 2019",2019-05-27
+S16E08,16,8,The Long March,"June 3, 2019",2019-06-03
+S16E09,16,9,The Hall Monitor and the Lunch Lady,"June 10, 2019",2019-06-10
+S16E10,16,10,Wild Women Do,"June 17, 2019",2019-06-17
+S16E11,16,11,An Irish Goodbye,"June 24, 2019",2019-06-24
+S16E12,16,12,Stompe Le Monde,"July 1, 2019",2019-07-01
+S16E13,16,13,Mom Sauce,"July 8, 2019",2019-07-08
+S16E14,16,14,Hamerican Dad!,"July 15, 2019",2019-07-15
+S16E15,16,15,Demolition Daddy,"July 22, 2019",2019-07-22
+S16E16,16,16,Pride Before the Fail,"July 29, 2019",2019-07-29
+S16E17,16,17,Enter Stanman,"August 5, 2019",2019-08-05
+S16E18,16,18,No Weddings and a Funeral,"August 12, 2019",2019-08-12
+S16E19,16,19,Eight Fires,"August 19, 2019",2019-08-19
+S16E20,16,20,The Hand That Rocks the Rogu,"August 26, 2019",2019-08-26
+S17E01,17,1,100 Years a Solid Fool,"April 13, 2020",2020-04-13
+S17E02,17,2,Downtown,"April 20, 2020",2020-04-20
+S17E03,17,3,Cheek to Cheek: A Stripper's Story,"April 27, 2020",2020-04-27
+S17E04,17,4,A Starboy Is Born,"May 4, 2020",2020-05-04
+S17E05,17,5,Tapped Out,"May 11, 2020",2020-05-11
+S17E06,17,6,Brave N00b World,"May 18, 2020",2020-05-18
+S17E07,17,7,Into the Woods,"May 25, 2020",2020-05-25
+S17E08,17,8,"One Fish, Two Fish","June 1, 2020",2020-06-01
+S17E09,17,9,Exquisite Corpses,"June 8, 2020",2020-06-08
+S17E10,17,10,"Trophy Wife, Trophy Life","June 15, 2020",2020-06-15
+S17E11,17,11,Game Night,"June 22, 2020",2020-06-22
+S17E12,17,12,American Data?,"June 29, 2020",2020-06-29
+S17E13,17,13,Salute Your Sllort,"July 6, 2020",2020-07-06
+S17E14,17,14,Ghost Dad,"July 13, 2020",2020-07-13
+S17E15,17,15,Men II Boyz,"July 20, 2020",2020-07-20
+S17E16,17,16,"First, Do No Farm","July 27, 2020",2020-07-27
+S17E17,17,17,Roger Needs Dick,"August 3, 2020",2020-08-03
+S17E18,17,18,The Old Country,"August 10, 2020",2020-08-10
+S17E19,17,19,Businessly Brunette,"August 17, 2020",2020-08-17
+S17E20,17,20,The Chilly Thrillies,"August 24, 2020",2020-08-24
+S17E21,17,21,"Dammmm, Stan!","August 31, 2020",2020-08-31
+S17E22,17,22,The Last Ride of the Dodge City Rambler,"September 7, 2020",2020-09-07
+S17E23,17,23,300,"September 14, 2020",2020-09-14
+S17E24,17,24,Yule. Tide. Repeat.,"December 21, 2020",2020-12-21
+S18E01,18,1,Who Smarted?,"April 19, 2021",2021-04-19
+S18E02,18,2,Russian Doll,"April 26, 2021",2021-04-26
+S18E03,18,3,Stan Moves to Chicago,"May 3, 2021",2021-05-03
+S18E04,18,4,Shakedown Steve,"May 10, 2021",2021-05-10
+S18E05,18,5,"Klaus and Rogu in ""Thank God for Loose Rocks"": An American Dad! Adventure","May 17, 2021",2021-05-17
+S18E06,18,6,The Wondercabinet,"May 24, 2021",2021-05-24
+S18E07,18,7,Little Bonnie Ramirez,"May 31, 2021",2021-05-31
+S18E08,18,8,Dancin' A-With My Cell,"June 7, 2021",2021-06-07
+S18E09,18,9,Mused and Abused,"June 14, 2021",2021-06-14
+S18E10,18,10,Henderson,"June 21, 2021",2021-06-21
+S18E11,18,11,Hot Scoomp,"June 28, 2021",2021-06-28
+S18E12,18,12,Lumberjerk,"July 5, 2021",2021-07-05
+S18E13,18,13,Stan & Francine & Stan & Francine & Radika,"July 12, 2021",2021-07-12
+S18E14,18,14,Flush After Reading,"July 19, 2021",2021-07-19
+S18E15,18,15,Comb Over: A Hair Piece,"July 26, 2021",2021-07-26
+S18E16,18,16,Plot Heavy,"August 2, 2021",2021-08-02
+S18E17,18,17,The Sinister Fate!!,"August 9, 2021",2021-08-09
+S18E18,18,18,Dr. Sunderson's SunSuckers,"August 16, 2021",2021-08-16
+S18E19,18,19,Family Time,"August 23, 2021",2021-08-23
+S18E20,18,20,Cry Baby,"August 30, 2021",2021-08-30
+S18E21,18,21,Crystal Clear,"September 6, 2021",2021-09-06
+S18E22,18,22,Steve's Franken Out,"October 25, 2021",2021-10-25
+S19E01,19,1,Langley Dollar Listings,"January 24, 2022",2022-01-24
+S19E02,19,2,Dressed Down,"January 31, 2022",2022-01-31
+S19E03,19,3,The Book of Fischer,"February 7, 2022",2022-02-07
+S19E04,19,4,A Roger Story,"February 14, 2022",2022-02-14
+S19E05,19,5,Epic Powder Dump,"February 21, 2022",2022-02-21
+S19E06,19,6,American Dad Graffito,"February 28, 2022",2022-02-28
+S19E07,19,7,Beyond the Alcove or: How I Learned to Stop Worrying and Love Klaus,"March 7, 2022",2022-03-07
+S19E08,19,8,A Song of Knives and Fire,"March 14, 2022",2022-03-14
+S19E09,19,9,The Curious Case of the Old Hole,"September 5, 2022",2022-09-05
+S19E10,19,10,Gold Top Nuts,"September 12, 2022",2022-09-12
+S19E11,19,11,The Three Fs,"September 19, 2022",2022-09-19
+S19E12,19,12,Smooshed: A Love Story,"September 26, 2022",2022-09-26
+S19E13,19,13,The Fast and the Spurious,"October 3, 2022",2022-10-03
+S19E14,19,14,A League of His Own,"October 10, 2022",2022-10-10
+S19E15,19,15,You Are Here,"October 31, 2022",2022-10-31
+S19E16,19,16,I Heard You Wanna Buy Some Speakers,"November 7, 2022",2022-11-07
+S19E17,19,17,Hayley Was a Girl Scout?,"November 14, 2022",2022-11-14
+S19E18,19,18,Please Please Jeff,"November 21, 2022",2022-11-21
+S19E19,19,19,Jambalaya,"November 28, 2022",2022-11-28
+S19E20,19,20,Gernot and Strudel,"December 5, 2022",2022-12-05
+S19E21,19,21,Echoes,"December 12, 2022",2022-12-12
+S19E22,19,22,The Grounch,"December 19, 2022",2022-12-19
+S20E01,20,1,Fellow Traveler,"March 27, 2023",2023-03-27
+S20E02,20,2,The Professor and the Coach,"April 3, 2023",2023-04-03
+S20E03,20,3,Viced Principal,"April 10, 2023",2023-04-10
+S20E04,20,4,The Pleasanting at Smith House,"April 17, 2023",2023-04-17
+S20E05,20,5,Stretched Thin,"May 1, 2023",2023-05-01
+S20E06,20,6,Better on Paper,"May 8, 2023",2023-05-08
+S20E07,20,7,Cow I Met Your Moo-ther,"May 15, 2023",2023-05-15
+S20E08,20,8,Stan Fixes a Shingle,"May 22, 2023",2023-05-22
+S20E09,20,9,Saving Face,"May 29, 2023",2023-05-29
+S20E10,20,10,Frantastic Voyage,"September 4, 2023",2023-09-04
+S20E11,20,11,A Little Mystery,"September 11, 2023",2023-09-11
+S20E12,20,12,Don't You Be My Neighbor,"September 18, 2023",2023-09-18
+S20E13,20,13,Productive Panic,"September 25, 2023",2023-09-25
+S20E14,20,14,Multiverse of American Dadness,"October 2, 2023",2023-10-02
+S20E15,20,15,Z.O.I.N.C.S.,"October 30, 2023",2023-10-30
+S20E16,20,16,A New Era for the Smith House,"November 6, 2023",2023-11-06
+S20E17,20,17,Between a Ring and a Hardass,"November 13, 2023",2023-11-13
+S20E18,20,18,Footprints,"November 20, 2023",2023-11-20
+S20E19,20,19,"Steve, Snot, and the Quest for the OG Four Loko","November 27, 2023",2023-11-27
+S20E20,20,20,The Pink Sphinx Holds Her Hearts on the Turn,"December 4, 2023",2023-12-04
+S20E21,20,21,A Little Extra Scratch,"December 11, 2023",2023-12-11
+S20E22,20,22,Into the Jingleverse,"December 18, 2023",2023-12-18
+S21E01,21,1,The Grocery Store Bank,"October 28, 2024",2024-10-28
+S21E02,21,2,Brown Lotus,"November 4, 2024",2024-11-04
+S21E03,21,3,I've Got a Friend in Me,"November 11, 2024",2024-11-11
+S21E04,21,4,Touch the Sun: A Chimborazo Adventure,"November 18, 2024",2024-11-18
+S21E05,21,5,"Under (and Over, and Beside) the Boardwalk","November 25, 2024",2024-11-25
+S21E06,21,6,The Violence of the Clams,"December 2, 2024",2024-12-02
+S21E07,21,7,An Adult Woman,"December 9, 2024",2024-12-09
+S21E08,21,8,Piece by Piece,"December 16, 2024",2024-12-16
+S21E09,21,9,Nasty Christmas,"December 23, 2024",2024-12-23
+S21E10,21,10,Idiot Rich,"December 30, 2024",2024-12-30
+S21E11,21,11,Killer Mimosa,"January 6, 2025",2025-01-06
+S21E12,21,12,"The Legend of Mike Madonia, the Rototiller Man","January 13, 2025",2025-01-13
+S21E13,21,13,The Clearview Motel,"January 20, 2025",2025-01-20
+S21E14,21,14,The Girl Who Cried Space Jam,"January 27, 2025",2025-01-27
+S21E15,21,15,Get Him to the Greek Lifestyle,"February 3, 2025",2025-02-03
+S21E16,21,16,The Mystery of the Missing Bazooka Shark Babe,"February 10, 2025",2025-02-10
+S21E17,21,17,Pork 'N Feelings,"February 17, 2025",2025-02-17
+S21E18,21,18,"Oh Brothel, Where Art Thou?","February 24, 2025",2025-02-24
+S21E19,21,19,The Sickness,"March 3, 2025",2025-03-03
+S21E20,21,20,Silicon Steve,"March 10, 2025",2025-03-10
+S21E21,21,21,Guardian,"March 17, 2025",2025-03-17
+S21E22,21,22,What Great Advancements!,"March 24, 2025",2025-03-24
+S22E01,22,1,"Aw Rats, A Pool Party","February 22, 2026",2026-02-22
+S22E02,22,2,The Flume Flume Room,"March 1, 2026",2026-03-01
+S22E03,22,3,Powering Through,"March 8, 2026",2026-03-08
+S22E04,22,4,Camera Stan,"March 15, 2026",2026-03-15
+S22E05,22,5,Idol Threat,"April 12, 2026",2026-04-12
+S22E06,22,6,The Treasure of Old Chinatown,"April 26, 2026",2026-04-26
+S22E07,22,7,Reaper Madness,"May 3, 2026",2026-05-03
+S22E08,22,8,"Dude, You're Getting a Del!","May 10, 2026",2026-05-10
+S22E09,22,9,Where the Wild Boars Are,"May 17, 2026",2026-05-17
+S22E10,22,10,Dumbston Checks In,"June 21, 2026",2026-06-21
+S22E11,22,11,A Donkey's Shame,"June 21, 2026",2026-06-21
+S22E12,22,12,400?!,"September 13, 2026",2026-09-13
+S22E13,22,13,Tales from the Outer Frontier,"September 13, 2026",2026-09-13
